@@ -4,7 +4,7 @@ Synchronizing the time of the MCU's built-in RTC with the computer and sending c
 ## About
 Project uses open-source embedded library [``libopencm3``](https://github.com/libopencm3/libopencm3), [``GNU-ARM``](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads) Embedded Toolchain (v.10-2020-q4-major), [``st-flash``](https://github.com/stlink-org/stlink) utility to flash/read binary files to/from arbitrary sections of MCU memory, [``freertos``](https://www.freertos.org/) that provides multitasking, and [``openocd``](http://openocd.org/) debugger. 
 
-Just click on them and follow the installation instructions, if you don't have it.
+Just click on them and follow the installation instructions, if you don't have it. This project assumes that you are using the libopencm3 library in the same directory.  
 
 ## Current version
 Current version of project using stm32f103c8t6 as target device. Linker script ``stm32f103c8t6.ld`` includes divisions of ram/flash section and configurates of vectors and stack. 
